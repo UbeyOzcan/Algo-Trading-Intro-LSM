@@ -1,0 +1,6 @@
+[project]
+name = "algo-trading-intro-lsm"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = []
