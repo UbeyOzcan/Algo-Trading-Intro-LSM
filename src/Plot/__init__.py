@@ -9,5 +9,5 @@ class Plot:
     def scatter(self):
         plt.plot(self.df['Close'])
         plt.scatter(self.df.loc[self.result['buydates']].index, self.df.loc[self.result['buydates']].Close, marker = '^', c = 'g')
-        plt.scatter(self.df.loc[self.result['selldates']].index, self.df.loc[self.result['selldates']].Close, marker='v', c='g')
+        plt.scatter(self.df.loc[self.result['selldates']].index, self.df.loc[self.result['selldates']].Close, marker='v', c='r')
         plt.savefig('Strategy.png')
